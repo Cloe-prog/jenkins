@@ -1,6 +1,7 @@
 #!/bin/bash
 #deploy_local.sh
-mkdir –p /app (attention aux droits, il va surement devoir nous attribuer les droits)
+mkdir –p /app 
+chmod 777 app 
 cp helloWorld.class /app
-cd /app
+cd ~app
 java helloWorld
