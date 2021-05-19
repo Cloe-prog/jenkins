@@ -1,6 +1,6 @@
 #!/bin/bash
 #deploy_local.sh
-mkdir –p app 
+mkdir –p ~app 
 chmod 777 app 
 cp helloWorld.class /app
 cd ~app
